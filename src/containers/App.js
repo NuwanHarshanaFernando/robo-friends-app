@@ -15,6 +15,7 @@ class App extends Component{
     }
 
     componentDidMount(){
+       // console.log(this.props.store.getState())
         fetch('http://jsonplaceholder.typicode.com/users')
         .then(response => response.json())
         .then(users => this.setState({robots:users}));
@@ -54,3 +55,9 @@ class App extends Component{
 }
 
 export default App;
+
+
+
+//Install redux & react-redux
+//npm install redux
+//npm install react-redux
