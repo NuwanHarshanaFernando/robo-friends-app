@@ -74,3 +74,8 @@ class App extends Component{
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
+
+
+
+//Install Redux-Middleware called redux-logger
+//npm install redux-logger
